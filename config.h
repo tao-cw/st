@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=36";
+static char *font = "monospace:size=14";
 static int borderpx = 0;
 
 /*
@@ -130,7 +130,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 15;
+unsigned int defaultcs = 11;
 static unsigned int defaultrcs = 257;
 
 /*
